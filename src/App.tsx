@@ -383,7 +383,9 @@ function Register() {
               </svg>
             </a>
           </p>
-          <p className="text-[#7a7a9a] text-sm font-mono mt-4"> Applications are reviewed on a rolling basis, and shortlisted candidates may be invited for an interview.
+          <p className="text-[#7a7a9a] text-sm font-mono mt-4"> Applications are reviewed on a rolling basis.
+          </p>  
+          <p className="text-[#7a7a9a] text-sm font-mono mt-4"> (Shortlisted candidates may be invited for an interview)
           </p>
           <p className="text-white text-sm font-mono mt-2">
             Applications close on October 28, 2026, at 20:30 (Vietnam time).
