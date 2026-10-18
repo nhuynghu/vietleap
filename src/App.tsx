@@ -365,7 +365,7 @@ function Register() {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-[#00e5ff] hover:text-white font-display font-bold text-xl uppercase tracking-widest transition-colors border-b border-[#00e5ff]/40 hover:border-white/60 pb-1"
           >
-            Get your CV, motivation statement, and data analysis skills ready.
+            Get your CV, and motivation statement ready.
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
               <path d="M7 17L17 7M7 7h10v10"/>
             </svg>
@@ -377,7 +377,7 @@ function Register() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-[#00e5ff] hover:text-white font-display font-bold text-base uppercase tracking-widest transition-colors border-b border-[#00e5ff]/40 hover:border-white/60 pb-1"
             >
-              Take your challenge here
+              Take your challenge here (OPTIONAL)
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M7 17L17 7M7 7h10v10"/>
               </svg>
