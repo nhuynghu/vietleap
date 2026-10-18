@@ -383,7 +383,8 @@ function Register() {
               </svg>
             </a>
           </p>
-          <p className="text-[#7a7a9a] text-sm font-mono mt-4"> Applications are reviewed on a rolling basis — don't miss your chance to join Viet<i>Leap</i> Hackathon.</p>
+          <p className="text-[#7a7a9a] text-sm font-mono mt-4"> Applications are reviewed on a rolling basis, and shortlisted candidates may be invited for an interview.
+          </p>
           <p className="mt-6 text-[#7a7a9a] text-sm">
             Do you have any questions for the Organizer? We're happy to help!{" "}
             <a
