@@ -563,23 +563,25 @@ function OrganizerSection() {
           <div className="grid grid-cols-1 gap-3">
             {SPONSORS.map((s) => (
               <div key={s.name} className="bg-[#0f1e38] border border-white/8 rounded-xl px-6 py-5 flex flex-col gap-4 card-hover col-span-full">
-                <div className="flex items-center gap-4">
-                  <img src={`${import.meta.env.BASE_URL}goodenough-goodstart-logo.png`} alt="Goodenough College & Goodstart Fellow" className="h-10 w-auto object-contain rounded-lg flex-shrink-0" />
+                <div className="flex flex-col items-start gap-3">
+                  <span className="tag border border-[#00e5ff]/30 bg-[#00e5ff]/10 text-[#00e5ff]">
+                    {s.role}
+                  </span>
+                  <img src={s.logo} alt={`${s.name} logo`} className="h-10 max-w-[15rem] w-auto object-contain rounded-lg flex-shrink-0" />
                 </div>
-                <div className="grid md:grid-cols-2 gap-6 pt-2 border-t border-white/8">
-                  <div>
-                    <h4 className="font-display font-bold text-base uppercase text-white mb-2">Goodenough College</h4>
-                    <p className="text-[#7a7a9a] text-sm leading-relaxed">A postgraduate residential charity in Bloomsbury, London, home to 800+ international students from 90+ countries since 1930 — building a global community of future leaders.</p>
-                  </div>
-                  <div>
-                    <h4 className="font-display font-bold text-base uppercase text-white mb-2">Goodstart Fellow</h4>
-                    <p className="text-[#7a7a9a] text-sm leading-relaxed">A Goodenough College alum awarded funding through the Goodstart Fellowship — an initiative created and funded by an alum to help others in the College's alumni community deliver community-impact projects in health, education, the environment, or wellbeing.</p>
-                  </div>
+                <div className={`grid gap-6 pt-2 border-t border-white/8 ${s.details.length > 1 ? "md:grid-cols-2" : ""}`}>
+                  {s.details.map((detail) => (
+                    <div key={detail.name}>
+                      <h4 className={`font-display font-bold text-base text-white mb-2 ${detail.name === "FiinGroup" ? "" : "uppercase"}`}>{detail.name}</h4>
+                      <p className="text-[#7a7a9a] text-sm leading-relaxed">{detail.description}</p>
+                    </div>
+                  ))}
                 </div>
               </div>
             ))}
           </div>
         </div>
+
 
         <div className="mt-12 bg-[#0f1e38] border border-white/10 rounded-xl p-8 flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
