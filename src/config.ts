@@ -207,7 +207,34 @@ export const ORGANIZERS = [
 ];
 
 export const SPONSORS = [
-  { name: "Goodenough College & Goodstart Fellow" },
+  {
+    name: "Goodenough College & Goodstart Fellow",
+    role: "Sponsor",
+    logo: "/goodenough-goodstart-logo.png",
+    details: [
+      {
+        name: "Goodenough College",
+        description:
+          "A postgraduate residential charity in Bloomsbury, London, home to 800+ international students from 90+ countries since 1930 — building a global community of future leaders.",
+      },
+      {
+        name: "Goodstart Fellow",
+        description:
+          "A Goodenough College alum awarded funding through the Goodstart Fellowship — an initiative created and funded by an alum to help others in the College's alumni community deliver community-impact projects in health, education, the environment, or wellbeing.",
+      },
+    ],
+  },
+  {
+    name: "FiinGroup",
+    role: "Partner",
+    logo: "/fiingroup-logo.svg",
+    details: [
+      {
+        name: "FiinGroup",
+        description: "FiinGroup — a pioneer in data analytics across the Vietnamese market.",
+      },
+    ],
+  },
 ];
 
 // Get your form ID from formspree.io — paste it here
