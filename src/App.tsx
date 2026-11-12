@@ -354,62 +354,12 @@ function Register() {
         <div className="mb-12 text-center">
           <div className="tag bg-[#5b4fff]/10 text-[#5b4fff] border border-[#5b4fff]/30 inline-block mb-4">Application</div>
           <h2 className="font-display font-black text-[clamp(2.5rem,6vw,5rem)] uppercase leading-none mb-4">
-            Apply Now
+            Applications Closed
           </h2>
-          <p className="text-[#7a7a9a]">Submit your application for review. Selected candidates will be invited to <span className="text-white">register</span>.</p>
         </div>
         <div className="bg-[#0f1e38] border border-white/10 rounded-2xl p-10 text-center">
-          <a
-            href="https://forms.gle/ro62xQdpqPcnarL87"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 text-[#00e5ff] hover:text-white font-display font-bold text-xl uppercase tracking-widest transition-colors border-b border-[#00e5ff]/40 hover:border-white/60 pb-1"
-          >
-            Get your CV & motivation statement ready.
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M7 17L17 7M7 7h10v10"/>
-            </svg>
-          </a>
-          <p className="mt-6">
-            <a
-              href="https://drive.google.com/file/d/12osfpbJZkcn9xfsmUihOOtRiakgl_6qm/view?usp=sharing"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-[#00e5ff] hover:text-white font-display font-bold text-base tracking-widest transition-colors border-b border-[#00e5ff]/40 hover:border-white/60 pb-1"
-            >
-              Take your challenge here (OPTIONAL)
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M7 17L17 7M7 7h10v10"/>
-              </svg>
-            </a>
-          </p>
-          <p className="text-[#7a7a9a] text-sm font-mono mt-4"> Applications are reviewed on a rolling basis.
-          </p>  
-          <p className="text-[#7a7a9a] text-sm font-mono mt-4"> (Shortlisted candidates may be invited for an interview)
-          </p>
-          <p className="text-white text-sm font-mono mt-2">
-            Applications close on October 28, 2026, at 20:30 (Vietnam time).
-          </p>
-          <p className="mt-6 text-[#7a7a9a] text-sm">
-            Do you have any questions for the Organizer? We're happy to help!{" "}
-            <a
-              href="https://forms.gle/vPBvTacbyDo3zfGS7"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[#00e5ff] hover:text-white underline underline-offset-2 transition-colors"
-            >
-              Reach out here
-            </a>
-          </p>
-          <p className="mt-3 text-[#7a7a9a] text-sm">
-            <a
-              href="https://zalo.me/g/kidasipqcqcek9bnjvpd"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[#00e5ff] hover:text-white underline underline-offset-2 transition-colors"
-            >
-              Join our Zalo group chat
-            </a>
+          <p className="text-[#00e5ff] font-display font-bold text-xl tracking-widest">
+            Thank you for your interest. We are no longer accepting applications.
           </p>
         </div>
       </div>
