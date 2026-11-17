@@ -3,6 +3,7 @@ import {
   SITE, HERO, ABOUT, AGENDA_DAYS, SPEAKERS,
   REGISTER, SUBMIT, ORGANIZERS, SPONSORS, SPONSOR_CTA, ORGANIZER_ORGS, FORMSPREE_ID,
 } from "./config";
+import Mentors from "./Mentors";
 
 function VL({ className = "" }: { className?: string }) {
   return <span className={className}>Viet<i>Leap</i></span>;
@@ -602,6 +603,7 @@ export default function App() {
       <About />
       <Agenda />
       <Speakers />
+      <Mentors />
       <Register />
       <OrganizerSection />
       <Footer onNav={onNav} />
