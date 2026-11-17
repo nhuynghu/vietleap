@@ -339,7 +339,6 @@ function Speakers() {
             <span className="text-white">UEH</span>,{" "}
             <span className="text-white">Western Sydney University</span>,{" "}
             <span className="text-white">Coventry University</span>,{" "}
-            <span className="text-white">University of Roehampton</span>,{" "}
             <span className="text-white">FiinGroup</span>, and other leading organizations.
           </p>
         </div>
