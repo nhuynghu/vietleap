@@ -18,14 +18,14 @@ const MENTORS: Mentor[] = [
   {
     name: "Nguyen Tien Viet",
     affiliation: "London School of Economics",
-    focus: "Growth, technology, the environment and energy, with a current focus on clean energy and digital technologies in the twin transitions.",
+    focus: "Economic and political issues related to growth, technology, the environment, and energy, with a current focus on the economics of clean energy and digital technologies in the twin transitions.",
     photo: "/mentors/nguyen-tien-viet.png",
     fit: "contain",
   },
   {
     name: "Nguyen Van Phuc",
     affiliation: "Western Sydney University, Viet Nam",
-    focus: "Econometrics, policy analysis, AI for teaching, research and business problems, corporate finance and fintech including CBDCs.",
+    focus: "Econometrics, policy analysis, the application of AI to teaching, research, and solving practical business problems; research in corporate finance and financial technology, including the adoption of central bank digital currencies (CBDCs).",
     photo: "/mentors/nguyen-van-phuc.png",
     fit: "contain",
   },
@@ -53,7 +53,7 @@ const MENTORS: Mentor[] = [
   {
     name: "Karan Vishwanath",
     affiliation: "University of Leicester",
-    focus: "Corporate governance and corporate finance, executive compensation, ESG, CSR, and mergers and acquisitions.",
+    focus: "Corporate governance and corporate finance, exploring how executive characteristics and compensation influence corporate decision-making and outcomes; environmental, social, and governance (ESG), corporate social responsibility (CSR), and mergers and acquisitions (M&A)",
     photo: "/mentors/karan-vishwanath.png",
     fit: "contain",
   },
