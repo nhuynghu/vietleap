@@ -30,13 +30,6 @@ const MENTORS: Mentor[] = [
     fit: "contain",
   },
   {
-    name: "Dao Phuong Dong",
-    affiliation: "University of Oxford, UK",
-    focus: "Sustainable finance; AI, fintech and innovation; financial economics. Research fellow at Oxford and research consultant at the World Bank.",
-    photo: "/mentors/dao-phuong-dong.png",
-    fit: "contain",
-  },
-  {
     name: "Dang Hoang Nhat Tam",
     affiliation: "University of Economics Ho Chi Minh City, VN",
     focus: "Macroeconomics, energy economics and uncertainty measurement, including geopolitical risk and fiscal policy uncertainty.",
