@@ -38,7 +38,7 @@ const MENTORS: Mentor[] = [
   },
   {
     name: "Dang Hoang Nhat Tam",
-    affiliation: "University of Economics Ho Chi Minh City",
+    affiliation: "University of Economics Ho Chi Minh City, VN",
     focus: "Macroeconomics, energy economics and uncertainty measurement, including geopolitical risk and fiscal policy uncertainty.",
     photo: "/mentors/dang-hoang-nhat-tam.png",
     fit: "contain",
