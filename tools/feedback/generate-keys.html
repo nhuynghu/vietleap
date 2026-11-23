@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>VietLeap feedback: generate keys</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>body{font-family:system-ui,sans-serif;max-width:760px;margin:32px auto;padding:0 16px;line-height:1.5}textarea{width:100%;height:180px;font-family:monospace;font-size:12px}button{padding:10px 18px;font-size:16px;cursor:pointer}.warn{background:#fff3cd;border:1px solid #e0c36a;padding:12px;border-radius:8px}</style></head>
+<body>
+<h1>Generate the survey key pair</h1>
+<p>Open this file on <strong>your own computer</strong> (double-click it). Nothing is uploaded: the keys are made inside your browser.</p>
+<p><button id="go">1. Generate keys</button></p>
+<div id="out" hidden>
+  <h2>Public key (safe to publish)</h2>
+  <p>Paste this into <code>public/feedback/config.js</code> as the value of <code>PUBLIC_KEY</code>.</p>
+  <textarea id="pub" readonly></textarea>
+  <h2>Private key (secret)</h2>
+  <div class="warn"><strong>Keep this file private.</strong> Anyone who has it can read every response. Do not put it in GitHub, email or chat. Store it in a password manager or on an encrypted drive. If you lose it, the responses cannot be recovered.</div>
+  <p><button id="dl">2. Download private key file</button></p>
+</div>
+<script>
+var priv;
+document.getElementById("go").onclick=async function(){
+  var kp=await crypto.subtle.generateKey({name:"RSA-OAEP",modulusLength:3072,publicExponent:new Uint8Array([1,0,1]),hash:"SHA-256"},true,["encrypt","decrypt"]);
+  var pub=await crypto.subtle.exportKey("jwk",kp.publicKey);
+  priv=await crypto.subtle.exportKey("jwk",kp.privateKey);
+  document.getElementById("pub").value=JSON.stringify(pub);
+  document.getElementById("out").hidden=false;
+};
+document.getElementById("dl").onclick=function(){
+  var a=document.createElement("a");
+  a.href=URL.createObjectURL(new Blob([JSON.stringify(priv)],{type:"application/json"}));
+  a.download="vietleap-feedback-PRIVATE-KEY.json";a.click();
+};
+</script></body></html>
